@@ -1,0 +1,44 @@
+nav {
+    width: 980px;
+    height: 90px;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%,0);
+    border-bottom: solid 2px #ffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .logo {
+        position: relative;
+        width: 92px;
+        height: 42px;
+        border: solid 2px white;
+    }
+
+    span {
+        position: absolute;
+        bottom: -3px;
+        color: #ffff;
+    }
+
+    .links {
+        font-size: 15px;
+        font-family: GillSansReg;
+        width: 350px;
+        display: flex;
+        justify-content: space-around;
+    
+
+        a {
+            text-decoration: none;
+            color:#ffff;
+        }
+
+        span {
+            position: relative;
+            color: #EE4367;
+        }
+
+    }    
+}

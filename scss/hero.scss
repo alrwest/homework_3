@@ -1,0 +1,54 @@
+.hero {
+    background-image: linear-gradient(to top, rgba(255,209,64,0.5), rgba(255,209,64,0.8)), url(images/home-hero.jpg);
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .centered-content {
+        width: 300px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+
+        h1 {
+            font-family: PTSerifReg;
+            font-size: 40px;
+            color: #ffffff;
+        }
+
+        .subtitle {
+            color: #EE4367;
+            font-style: italic;
+            font-family: GillSansReg;
+            font-size: 20px;
+
+        }
+        .subtext {
+            width: 416px;
+            color: white;
+            font-style: italic;
+            font-family: GillSanReg;
+            font-size: 20px;
+            text-align: center;
+            margin: 25px 50px;
+        }
+
+        .button {
+            height: 40px;
+            width: 125px;
+            background-color: #ee4367;
+            color: #ffffff;
+            font-size: 16px;
+            font-family: GillSansReg;
+            display: flex;
+            justify-content: center;
+            align-items: center; 
+            margin-top: 15px;
+        }
+    }
+}
